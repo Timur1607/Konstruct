@@ -1,9 +1,84 @@
-
-@font-face {
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+@font-face{
     font-family: "OpenSans";
-    src: url(./font/OpenSans-VariableFont_wdth\,wght.eot),
-    url(./font/OpenSans-VariableFont_wdth\,wght.otf),
-    url(./font/OpenSans-VariableFont_wdth\,wght.ttf),
-    url(./font/OpenSans-VariableFont_wdth\,wght.woff),
-    url(./font/OpenSans-VariableFont_wdth\,wght.woff2);
+    src: url(./font/openSans/OpenSans-VariableFont_wdth\,wght.eot),
+    url(./font/openSans/OpenSans-VariableFont_wdth\,wght.otf),
+    url(./font/openSans/OpenSans-VariableFont_wdth\,wght.ttf),
+    url(./font/openSans/OpenSans-VariableFont_wdth\,wght.woff),
+    url(./font/openSans/OpenSans-VariableFont_wdth\,wght.woff2);
+}
+@font-face{
+    font-family: "BebasNeue";
+src: url(./font/bebasNeue/BebasNeue-Regular.eot),
+url(./font/bebasNeue/BebasNeue-Regular.otf),
+url(./font/bebasNeue/BebasNeue-Regular.ttf),
+url(./font/bebasNeue/BebasNeue-Regular.woff),
+url(./font/bebasNeue/BebasNeue-Regular.woff2);
+}
+
+.header{
+    /* border: 1px solid black; */
+    /* padding: 41px 0px 71px 0px; */
+    background-image: url(./img/header.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.container{
+    max-width: 941px;
+    width: 100%;
+}
+
+.header__logo{
+    display: block;
+    padding-top: 41px;
+}
+
+.header__text{
+    margin-top: 305px;
+    color: #FFF;
+    text-align: center;
+    font-family: "BebasNeue", sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 5.709px;
+}
+
+.header__text1{
+    color: #FFF;
+    text-align: center;
+    font-family: "OpenSans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.header__text2{
+    margin-top: 221px;
+    color: #FFF;
+    text-align: center;
+    font-family: "OpenSans", sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.7px;
+    padding-bottom: 71px;
+}
+
+.menu__logo{
+    display: inline;
+}
+
+.menu__links{
+    display: flex;
+    justify-content: space-between;
+    width: 411px;
+    border: 1px solid black;
+}
+.menu__link{
+    text-decoration: none;
 }
