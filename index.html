@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>construct</title>
+    <title>Konstruct</title>
     <link rel="stylesheet" href="./style.css">
+    <link  rel="shortcut icon" href="./favicon.svg" type="image/x-icon">
 </head>
 <body>
     <section class="header">
@@ -17,35 +18,41 @@
     </section>
     <section class="menu">
         <div class="container">
-            <img class="menu__logo" src="./img/logo__black.svg" alt="">
-            <div class="menu__links">
-                <a class="menu__link" href="">HOME</a>
-                <a class="menu__link" href="">ABOUT</a>
-                <a class="menu__link" href="">CERVICES</a>
-                <a class="menu__link" href="">WORK</a>
-                <a class="menu__link" href="">CONTACT</a>
-            </div>
+            <nav class="menu__nav" >
+                <img class="menu__logo" src="./img/logo__black.svg" alt="black_logo">
+                <ul class="menu__links">
+                    <li class="menu__li"><a class="menu__link" href="">HOME</a></li>
+                    <li class="menu__li"><a class="menu__link" href="">ABOUT</a></li>
+                    <li class="menu__li"><a class="menu__link" href="">CERVICES</a></li>
+                    <li class="menu__li"><a class="menu__link" href="">WORK</a></li>
+                    <li class="menu__li"><a class="menu__link" href="">CONTACT</a></li>
+                </ul>
+            </nav>
         </div>
     </section>
     <section class="story">
         <div class="container">
-            <h2 class="story__h2"></h2>
-            <hr class="story__hr">
+            <div class="story__div">
+                <h2 class="story__h2">OUR STORY</h2>
+                <img class="story__img" src="./img/Line.svg">
+            </div>
             <div class="story__info">
-                <p class="story__text"></p>
-                <p class="story__text"></p>
+                <div class="story__info_text">
+                    <p class="story__text">Founded in 2011 by John Mathew Smith, <span class="story__konstruct">Konstruct</span> has become the number one construction management</p>
+                    <p class="story__text1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                </div>
                 <div class="story__articles">
                     <article class="story__article article">
-                        <img class="article__picture">
-                        <p class="article__text"></p>
+                        <img class="article__picture" src="./img/Bitmap.webp" alt="plan">
+                        <p class="article__text">WE <br>PLAN</p>
                     </article>
                     <article class="story__article article">
-                        <img class="article__picture">
-                        <p class="article__text"></p>
+                        <img class="article__picture" src="./img/Bitmap-_1_.webp" alt="manage">
+                        <p class="article__text">WE MANAGE</p>
                     </article>
                     <article class="story__article article">
-                        <img class="article__picture">
-                        <p class="article__text"></p>
+                        <img class="article__picture" src="./img/Bitmap-_2_.webp" alt="build">
+                        <p class="article__text">WE <br>BUILD</p>
                     </article>
                 </div>
             </div>
@@ -54,41 +61,52 @@
     <section class="capabilities">
         <div class="container">
             <div class="capabilities__info">
-                <h2 class="capabilities__h2"></h2>
-                <hr class="capabilities__hr">
-                <p class="capabilities__text"></p>
-                <button class="capabilities__services"></button>
+                <div class="capabilities__H2">
+                    <h2 class="capabilities__h2">OUR CAPABILITIES</h2>
+                    <img class="capabilities__img" src="./img/Line.svg">
+                </div>
+                <p class="capabilities__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                <button class="capabilities__services">ALL SERVICES</button>
             </div>
             <div class="capabilities__articles">
-                <article class="capabilities__article article">
-                    <img class="article__img" src="" alt="">
-                    <p class="article__name"></p>
-                    <p class="article__text"></p>
+                <article class="capabilities__article card">
+                    <img class="article__img" src="./img/pen.svg" alt="project and construction management">
+                    <p class="card__name">PROJECT AND CONSTRUCTION MANAGEMENT</p>
+                    <p class="card__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
                 </article>
-                <article class="capabilities__article article">
-                    <img class="article__img" src="" alt="">
-                    <p class="article__name"></p>
-                    <p class="article__text"></p>
+                <article class="capabilities__article card">
+                    <img class="card__img" src="./img/store.svg" alt="structure audit and maintenance">
+                    <p class="card__name">STRUCTURE AUDIT AND MAINTENANCE</p>
+                    <p class="card__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
                 </article>
-                <article class="capabilities__article article">
-                    <img class="article__img" src="" alt="">
-                    <p class="article__name"></p>
-                    <p class="article__text"></p>
+                <article class="capabilities__article card">
+                    <img class="card__img" src="./img/bank.svg" alt="factory construction and modeling">
+                    <p class="card__name">FACTORY CONSTRUCTION AND MODELING</p>
+                    <p class="card__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
                 </article>
             </div>
         </div>
     </section>
-    <section class="footer">
-        <div class="footer__info">
-            <p class="footer__text"></p>
-            <button class="footer__button"></button>
+    <section class="footer__info">
+        <div class="container">
+            <p class="footer__text">Want to build <br>something amazing?</p>
+            <button class="footer__button">GET IN TOUCH</button>
         </div>
-        <div class="footer__signup">
-            <p class="footer__signup_text"></p>
-            <button class="footer__signup_button"></button>
+    </section>
+    <section class="footer__signup">
+        <div class="container">
+            <div class="footer__signup_info">
+                <p class="footer__signup_text">Newsletter Signup</p>
+                <div class="signup__div">
+                    <input type="text" class="footer_signup_write">
+                    <input type="submit" value="SIGNUP" class="footer__signup_button">
+                </div>
+            </div>
         </div>
-        <div class="footer__copyright">
-            <p class="footer__copyright_text"></p>
+    </section>
+    <section class="footer__copyright">
+        <div class="container">
+            <p class="footer__copyright_text">© <time datetime="2017-1-1">2017</time> Konstruct Inc. Designed by Jane Kathryn Teo</p>
         </div>
     </section>
 </body>
