@@ -28,6 +28,7 @@ url(./font/bebasNeue/BebasNeue-Regular.woff2);
     background-repeat: no-repeat;
     overflow: hidden;
     height: 769px;
+    background-size: cover;
 }
 
 .container{
@@ -280,9 +281,15 @@ url(./font/bebasNeue/BebasNeue-Regular.woff2);
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 0.5px;
-    border: none;
+    border: 1px solid #00A4E5;
     cursor: pointer;
-    }
+}
+
+.capabilities__services:hover{
+    color: #00A4E5;
+    background-color: #FFF;
+    transition: 0.5s;
+}
 
 .capabilities__articles{
     display: flex;
@@ -328,6 +335,7 @@ url(./font/bebasNeue/BebasNeue-Regular.woff2);
     display: flex;
     justify-content: center;
     position: relative;
+    background-size: cover;
 }
 
 .footer__text{
@@ -348,7 +356,7 @@ url(./font/bebasNeue/BebasNeue-Regular.woff2);
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 0.5px;
-    border: none;
+    border: 1px solid #00A4E5;
     margin-top: 35px;
     width: 150px;
     height: 40px;
@@ -357,6 +365,12 @@ url(./font/bebasNeue/BebasNeue-Regular.woff2);
     left:50%;
     transform: translateX(-50%);
     cursor: pointer;
+}
+
+.footer__button:hover{
+    color: #00A4E5;
+    background-color: #FFF;
+    transition: 0.5s;
 }
 
 .footer__signup{
@@ -392,8 +406,14 @@ url(./font/bebasNeue/BebasNeue-Regular.woff2);
     font-weight: 700;
     letter-spacing: 0.5px;
     background: #00A4E5;
-    border: none;
+    border: 1px solid #00A4E5;
     cursor: pointer;
+}
+
+.footer__signup_button:hover{
+    color: #00A4E5;
+    background-color: #FFF;
+    transition: 0.5s;
 }
 
 .footer__copyright{
@@ -403,7 +423,11 @@ url(./font/bebasNeue/BebasNeue-Regular.woff2);
 }
 
 .footer__copyright_text{
-    color: #FFFFFF;
+    color: #FFF;
+    font-family: "OpenSans", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.846px;
 }
 
 .footer_signup_write{
